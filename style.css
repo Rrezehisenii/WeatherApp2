@@ -1,0 +1,86 @@
+body {
+    background: #e0f7fa; /* Ngjyra e sfondit të faqes */
+    font-family: 'Open Sans', sans-serif; /* Tipografia e faqes */
+    color: #333; /* Ngjyra e tekstit */
+    margin: 0; /* Hiq hapësirat e jashtme të trupit të faqes */
+    padding: 0; /* Hiq hapësirat e brendshme të trupit të faqes */
+}
+
+header {
+    background: #00bcd4; /* Ngjyra e sfondit të header-it */
+    padding: 15px 0; /* Hapësira e brendshme e header-it */
+    text-align: center; /* Qendron tekstin në qendër */
+    color: #fff; /* Ngjyra e tekstit në header */
+}
+
+h1 {
+    margin: 0; /* Hiq hapësirat e jashtme të titullit */
+    font-size: 2.5rem; /* Madhësia e shkronjave të titullit */
+}
+
+.container {
+    max-width: 700px; /* Gjerësia maksimale e kontejnerit */
+    margin: 20px auto; /* Hapësira e jashtme e kontejnerit, e qendruar në qendër */
+    padding: 20px; /* Hapësira e brendshme e kontejnerit */
+    background: #ffffff; /* Ngjyra e sfondit të kontejnerit */
+    border-radius: 10px; /* Rrezja e skajeve të kontejnerit */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Hije për kontejnerin */
+}
+
+.weather-input {
+    text-align: center; /* Qendron tekstin në qendër në hyrjen për motin */
+    margin-bottom: 20px; /* Hapësira e poshtme për hyrjen e motit */
+}
+
+.weather-input input {
+    width: 70%; /* Gjerësia e inputit */
+    padding: 12px; /* Hapësira e brendshme e inputit */
+    font-size: 1rem; /* Madhësia e shkronjave në input */
+    border: 1px solid #b0bec5; /* Kufiri i inputit */
+    border-radius: 5px; /* Rrezja e skajeve të inputit */
+}
+
+.weather-input button {
+    padding: 12px 25px; /* Hapësira e brendshme e butonit */
+    font-size: 1rem; /* Madhësia e shkronjave në buton */
+    color: #fff; /* Ngjyra e tekstit në buton */
+    background: #00bcd4; /* Ngjyra e sfondit të butonit */
+    border: none; /* Heq kufirin e butonit */
+    border-radius: 5px; /* Rrezja e skajeve të butonit */
+    cursor: pointer; /* Shkallëzon kursorin në formën e dorës kur kalon mbi buton */
+    margin-top: 10px; /* Hapësira e sipërme e butonit */
+}
+
+.weather-input button:hover {
+    background: #00acc1; /* Ngjyra e sfondit kur kalon mbi butonin */
+}
+
+.weather-data {
+    margin-top: 20px; /* Hapësira e sipërme për të dhënat e motit */
+}
+
+.weather-data .current-weather {
+    text-align: center; /* Qendron tekstin në qendër në pjesën e motit të tanishëm */
+}
+
+.weather-data .details h2 {
+    font-size: 2rem; /* Madhësia e shkronjave për emrin e qytetit */
+    margin-bottom: 10px; /* Hapësira e poshtme për emrin e qytetit */
+    color: #00796b; /* Ngjyra e emrit të qytetit */
+}
+
+.weather-data .details h4 {
+    font-size: 1.2rem; /* Madhësia e shkronjave për detajet e motit */
+    margin-bottom: 5px; /* Hapësira e poshtme për detajet e motit */
+}
+
+.weather-data .icon img {
+    width: 120px; /* Gjerësia e ikonës së motit */
+    margin-top: 10px; /* Hapësira e sipërme për ikonën e motit */
+}
+
+.weather-data .icon h4 {
+    margin-top: 10px; /* Hapësira e sipërme për përshkrimin e ikonës së motit */
+    text-transform: capitalize; /* Kapitalizon çdo fjalë në përshkrimin e ikonës së motit */
+    color: #00796b; /* Ngjyra e përshkrimit të ikonës së motit */
+}
